@@ -1,0 +1,142 @@
+/** @format */
+
+.header {
+	/* top: 0;
+	left: 0; */
+	width: 100%;
+	height: 100vh;
+	background: url('../../images/Homeimg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	color: white;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+	width: 100%;
+}
+
+/* .col-6 {
+	width: 60%;
+} */
+
+/* .header__content {
+	display: flex;
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+	color: #fff;
+} */
+
+.header__ul {
+	list-style: none;
+	display: flex;
+	margin-bottom: 5px;
+}
+
+.header__ul li {
+	width: 50px;
+	height: 50px;
+	border: 2px solid red;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 10px;
+	cursor: pointer;
+}
+
+.header__ul li:hover {
+	color: #fa923f;
+}
+
+.header__ul li:first-child {
+	margin-left: 0;
+}
+
+.header__content h1 {
+	font-size: 57px;
+	font-weight: 500;
+	margin: 20px 0;
+}
+
+.header__content p {
+	font-size: 26px;
+	font-weight: 300;
+	line-height: 40px;
+	margin-bottom: 50px;
+}
+
+.btn {
+	outline: none;
+	border: none;
+	padding: 13px 40px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.btn-outline {
+	border: 2px solid #ff4a57;
+	border-radius: 50px;
+	/* padding: 13px 40px; */
+}
+
+.btn-outline:hover {
+	color: #fa923f;
+}
+
+.btn-smart {
+	background: #ff4a57;
+	padding: 13px 40px;
+	border-radius: 50px;
+}
+
+.play {
+	font-size: 25px !important;
+	padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+	.container {
+		/* width: 1200px; */
+		margin: 0 1rem;
+	}
+	.header__content h1 {
+		font-size: 30px;
+		font-weight: 500;
+		margin: 5px 0;
+	}
+	.header__ul li {
+		width: 30px;
+		height: 30px;
+		border: 2px solid red;
+		border-radius: 50%;
+		margin: 0 15px;
+		cursor: pointer;
+	}
+	.header__content p {
+		font-size: 20px;
+		font-weight: 300;
+		line-height: 20px;
+		margin-bottom: 20px;
+	}
+	.btn-outline {
+		border: 2px solid #ff4a57;
+		border-radius: 25px;
+		padding: 6px 20px;
+	}
+
+	.btn-smart {
+		background: #ff4a57;
+		padding: 6px 20px;
+		border-radius: 25px;
+	}
+}

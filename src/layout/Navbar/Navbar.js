@@ -26,9 +26,6 @@ const Navbar = () => {
 			<Toolbar drawerClickHandler={drawerToggleClickHandler} />
 			<SideDrawer show={drawerToggle} />
 			{backdrop}
-			<main style={{ marginTop: '64px' }}>
-				<p>there is some content written there</p>
-			</main>
 		</div>
 	);
 };
