@@ -17,7 +17,7 @@ const SideDrawer = (props) => {
 					<NavLink to='/home'>Home</NavLink>
 				</li>
 				<li>
-					<NavLink to='/about'>About</NavLink>
+					<NavLink to='/about'>About us</NavLink>
 				</li>
 				<li>
 					<NavLink to='/contact'>Contact</NavLink>
